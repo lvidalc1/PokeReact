@@ -59,6 +59,8 @@ const Pokemon = (props) => {
         return baseDefense + (nivel * 2)
     }
 
+    /**/
+
     return <div>
         <img src={imgFrontUrl}></img>
         <img src={imgBackUrl}></img>
