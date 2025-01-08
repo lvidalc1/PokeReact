@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import {useParams} from "react-router-dom";
 
@@ -12,6 +12,10 @@ const Pokemon = (props) => {
     const [baseDefense, setBaseDefense] = useState();
 
     const params =useParams();
+
+    useEffect(()=>{
+
+    })
 
     const ID = params.id;
 
